@@ -22,7 +22,7 @@ Open http://localhost:3000.
 
 1. Push the project to GitHub.
 2. Import the repository in Vercel.
-3. Deploy.
+3. Deploy. 
 
 ## Available pages
 
