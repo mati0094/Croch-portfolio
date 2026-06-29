@@ -1,0 +1,30 @@
+
+> croch-portfolio@0.1.0 build
+> next build
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\matia\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\matia\croch-portfolio\package-lock.json
+
+▲ Next.js 16.2.9 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 15.9s
+  Running TypeScript ...
+Failed to type check.
+
+./src/components/site-shell.tsx:69:31
+Type error: Type '{ children: Element; side: string; className: string; }' is not assignable to type 'IntrinsicAttributes & Omit<DialogContentProps & RefAttributes<HTMLDivElement>, "ref"> & RefAttributes<...>'.
+  Property 'side' does not exist on type 'IntrinsicAttributes & Omit<DialogContentProps & RefAttributes<HTMLDivElement>, "ref"> & RefAttributes<...>'.
+
+  [90m67 |[0m                   </[33mButton[0m>
+  [90m68 |[0m                 </[33mSheetTrigger[0m>
+[31m[1m>[0m [90m69 |[0m                 <[33mSheetContent[0m side=[32m"right"[0m className=[32m"md:hidden"[0m>
+  [90m   |[0m                               [31m[1m^[0m
+  [90m70 |[0m                   <div className=[32m"mt-6 flex flex-col gap-3"[0m>
+  [90m71 |[0m                     {navItems.map((item) => (
+  [90m72 |[0m                       <[33mLink[0m key={item.id} href={[32m`#[0m${item.id[32m}`[0m} className=[32m"rounded-2xl bord...[0m
+Next.js build worker exited with code: 1 and signal: null
