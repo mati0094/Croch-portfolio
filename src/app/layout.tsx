@@ -14,17 +14,17 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: "Croch | Web Developer & Trader",
-  description: "Premium portfolio for Croch — web development, landing pages, WordPress, and disciplined trading insight.",
+  description: "Web developer by day, disciplined trader by night. Building ultra-fast, conversion-focused websites while navigating the markets with clinical precision.",
   keywords: ["portfolio", "web developer", "Next.js", "trading", "WordPress"],
   openGraph: {
     title: "Croch | Web Developer & Trader",
-    description: "Premium portfolio for Croch — web development, landing pages, WordPress, and disciplined trading insight.",
+    description: "Web developer by day, disciplined trader by night. Building ultra-fast, conversion-focused websites while navigating the markets with clinical precision.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Croch | Web Developer & Trader",
-    description: "Premium portfolio for Croch — web development, landing pages, WordPress, and disciplined trading insight.",
+    description: "Web developer by day, disciplined trader by night. Building ultra-fast, conversion-focused websites while navigating the markets with clinical precision.",
   },
 };
 
