@@ -92,7 +92,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
           <p>© 2026 Croch. Built for clarity, speed, and trust.</p>
           <div className="flex flex-wrap items-center gap-3">
             <Badge>Available for select projects</Badge>
-            <span>GMT+3 • Addis Ababa</span>
+  
           </div>
         </footer>
       </div>

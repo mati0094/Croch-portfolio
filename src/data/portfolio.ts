@@ -184,22 +184,22 @@ export const projects: Project[] = [
 
 export const timeline: TimelineEntry[] = [
   {
-    year: "2024",
-    title: "Freelance web development",
+    year: "2026/Present",
+    title: "Freelancer & Funded Trader",
     description: "Built polished, conversion-minded websites for clients across consulting and creative sectors.",
   },
   {
-    year: "2023",
-    title: "BSc in Computer Science",
-    description: "Completed a degree focused on software systems, problem solving, and practical engineering.",
-  },
-  {
-    year: "2022",
+    year: "2025",
     title: "Trading discipline practice",
     description: "Started documenting setups, journaling outcomes, and refining a structured risk framework.",
   },
   {
-    year: "2021",
+    year: "2024",
+    title: "BSc in Computer Science",
+    description: "Learned the fundamentals of web development, algorithims, and software engineering principles, while building small web projects, and exploring trading starategies.",
+  },
+  {
+    year: "2023",
     title: "First client projects",
     description: "Delivered early web builds and learned the value of clarity, speed, and trust in real products.",
   },
