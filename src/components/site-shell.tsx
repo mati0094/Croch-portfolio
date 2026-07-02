@@ -1,5 +1,5 @@
 "use client";
-
+import Image from 'next/image';
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -38,13 +38,19 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
       <div className="mx-auto flex min-h-screen max-w-7xl flex-col px-4 py-4 sm:px-6 lg:px-8">
         <header className="sticky top-4 z-40 rounded-full border border-white/10 bg-[#060b14]/80 px-3 py-3 backdrop-blur-2xl">
           <div className="flex items-center justify-between gap-3">
-            <Link href="#home" className="flex items-center gap-3 rounded-full px-2 py-1 transition hover:bg-white/5">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-violet-600 to-emerald-500 text-sm font-semibold text-white">C</div>
-              <div>
-                <p className="text-sm font-semibold text-white">Croch</p>
-                <p className="text-xs text-zinc-400">Developer • Trader</p>
-              </div>
-            </Link>
+            <Link href="#home" className="flex items-center gap-3 rounded-full px-2 py-1">
+  <Image 
+    src="/logo.png" 
+    alt="Croch Logo" 
+    width={40} 
+    height={40} 
+    className="rounded-full object-cover"
+  />
+  <div>
+    <p className="text-sm font-semibold text-white">Croch</p>
+    <p className="text-xs text-zinc-400">Developer • Trader</p>
+  </div>
+</Link>
             <nav className="hidden items-center gap-2 md:flex">
               {navItems.map((item) => (
                 <Link
