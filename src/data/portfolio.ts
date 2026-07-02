@@ -196,7 +196,7 @@ export const timeline: TimelineEntry[] = [
   {
     year: "2024",
     title: "BSc in Computer Science",
-    description: "Learned the fundamentals of web development, algorithims, and software engineering principles, while building small web projects, and exploring trading starategies.",
+    description: "Learned the fundamentals of web development, algorithims, and software engineering principles, while building small web projects, and exploring trading starategies and also Completed a degree focused on software systems, problem solving, and practical engineering.",
   },
   {
     year: "2023",
@@ -227,8 +227,8 @@ export const navItems = [
 ];
 
 export const contactLinks = [
-  { label: "GitHub", href: "https://github.com" },
-  { label: "LinkedIn", href: "https://linkedin.com" },
-  { label: "Email", href: "mailto:hello@croch.dev" },
-  { label: "X", href: "https://x.com" },
+  { label: "GitHub", href: "https://github.com/mati0094" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/matias-yenealem-a35389260?utm_source=share_via&utm_content=profile&utm_medium=member_ios" },
+  { label: "Email", href: "matiasyenealem3@gmail.com" },
+  { label: "X", href: "https://x.com/crochmeta?s=11" },
 ];
